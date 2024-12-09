@@ -1,3 +1,81 @@
-h1{
-    color:brown;
+html{
+    font-family: helvetica;
+    background: #7e7e7e;
+}
+
+.container{
+    max-width: 1100px;
+    background-color: #fff;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+}
+
+.title1{
+    font-size: 40px;
+}
+
+.title2{
+    font-style: italic;
+}
+
+.image{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.biografia{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #d6d6d6;
+    border-bottom: 1px dashed #d6d6d6;
+}
+
+.citacao, .citacao2{
+    background-color: #d6d6d6;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.citacao, .citacao2 p{
+    font-style: italic;  
+}
+
+.curiosidade{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #d6d6d6;
+    border-bottom: 1px dashed #d6d6d6; 
+}
+
+.image2 figure img{
+    align-items: center;   
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.image2 figure figcaption{
+    text-align: center;
+    font-size: 15px;
+} 
+
+.info{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #d6d6d6;
+    border-bottom: 1px dashed #d6d6d6;
+}
+
+footer{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
 }
